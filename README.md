@@ -27,8 +27,9 @@
 ## 📖 Documentation
 
 - **[PRESENTATION_SLIDES.md](PRESENTATION_SLIDES.md)** - Complete presentation about the project and Elasticsearch integration (26 slides)
-- **[ELASTICSEARCH_SETUP.md](ELASTICSEARCH_SETUP.md)** - Detailed Elasticsearch setup guide
-- **[PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md)** - Architecture and code organization (if exists)
+- **[API_DOCUMENTATION.md](API_DOCUMENTATION.md)** - Swagger/OpenAPI interactive API docs
+- **[ELASTICSEARCH_SETUP.md](ELASTICSEARCH_SETUP.md)** - Detailed Elasticsearch setup guide (if file exists)
+- **Interactive API Docs** - http://localhost:5000/api/docs (when server is running)
 
 ## ⚡ Quick Start
 
