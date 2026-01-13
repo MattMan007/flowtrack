@@ -5,6 +5,7 @@ import RegisterPage from './pages/RegisterPage';
 import DashboardPage from './pages/DashboardPage';
 import WorkflowPage from './pages/WorkflowPage';
 import AnalyticsPage from './pages/AnalyticsPage';
+import SearchPage from './pages/SearchPage';
 import Layout from './components/Layout';
 
 function PrivateRoute({ children }) {
@@ -30,6 +31,7 @@ function App() {
             <Route index element={<DashboardPage />} />
             <Route path="workflow/:id" element={<WorkflowPage />} />
             <Route path="analytics" element={<AnalyticsPage />} />
+            <Route path="search" element={<SearchPage />} />
           </Route>
         </Routes>
       </AuthProvider>

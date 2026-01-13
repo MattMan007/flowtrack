@@ -66,5 +66,11 @@ export const analyticsAPI = {
   getTasksCompleted: (params) => api.get('/analytics/tasks-completed', { params })
 };
 
+export const searchAPI = {
+  searchTasks: (query) => api.get('/search/tasks', { params: { q: query } }),
+  searchEvents: (params) => api.get('/search/events', { params }),
+  getAggregations: (params) => api.get('/search/aggregations', { params })
+};
+
 export default api;
 
